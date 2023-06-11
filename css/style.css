@@ -340,7 +340,68 @@ body{
 
 .price{
     background-image:   url("../images/price-baloon.png") ;
+    background-repeat: no-repeat;
+    background-position: center right 20%;
 }
+
+.contacts__inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacts__content{
+    text-align: center;
+}
+
+.contacts__date,
+.contacts__price{
+    color: #E2AB3F;
+    font-family: "balqis", sans-serif;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 300;
+
+}
+.contacts__price{
+    margin-left: 120px;
+
+}
+
+.contacts__date{
+    margin-bottom: 20px;
+}
+
+
+.contacts__date span,
+.contacts__price span{
+    display: block;
+    line-height: 28px;
+    font-size: 24px;
+    color: black;
+    font-family: "RobotoCondensed-Light",
+    sans-serif;margin-left: 205px;
+    margin-top: -10px;
+}
+
+.contacts__form{
+    max-width: 383px;
+    margin: 0 auto;
+}
+
+.contacts__form__title{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-family: "RobotoCondensed-Regular", sans-serif;
+}
+
+.contacts__form-input{
+
+}
+
+
+
 
 
 
